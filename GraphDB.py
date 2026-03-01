@@ -4,8 +4,8 @@ from neo4j import GraphDatabase
 from tqdm import tqdm
 NEO4J_URI = "bolt://localhost:7687"
 NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "Max1432306@#"
-NEO4J_DATABASE = "Drug Graph uk"
+NEO4J_PASSWORD = "Password"
+NEO4J_DATABASE = "Database"
 
 ZINC_CSV_PATH = "ZINC_250k.csv"
 BATCH_SIZE = 500
@@ -117,3 +117,4 @@ def load_zinc():
 
 if __name__ == "__main__":
     load_zinc()
+
