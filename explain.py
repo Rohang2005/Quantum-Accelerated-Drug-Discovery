@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyAI-tCA4WZwfHNpnrAa2F_CeaGaHctYK1E")
+genai.configure(api_key="API_KEY")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
@@ -47,3 +47,4 @@ Keep the explanation suitable for a hackathon demo.
     response = model.generate_content(prompt)
 
     return response.text
+
