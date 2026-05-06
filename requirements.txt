@@ -1,0 +1,13 @@
+pennylane
+pennylane-lightning
+pennylane-qiskit
+pyscf
+basis-set-exchange
+torch
+rdkit
+pandas
+numpy
+google-generativeai
+python-dotenv
+streamlit
+pillow

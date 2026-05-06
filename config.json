@@ -1,0 +1,38 @@
+{
+    "llm": {
+        "model_name": "gemini-2.5-flash",
+        "explanation_iterations": 3
+    },
+    "simulation": {
+        "iterations": 3,
+        "molgan_epochs": 100,
+        "fine_tune_epochs": 20,
+        "molecules_per_iter": 20,
+        "classification_percentile": 30,
+        "top_k_features": 3,
+        "final_candidates_count": 5,
+        "feedback_boost_factor": 8,
+        "feedback_base_sample_size": 200
+    },
+    "molgan": {
+        "z_dim": 32,
+        "g_hidden": 256,
+        "d_hidden": 256,
+        "lr_g": 1e-4,
+        "lr_d": 1e-4,
+        "n_critic": 5,
+        "gp_lambda": 10.0,
+        "batch_size": 64
+    },
+    "quantum": {
+        "basis": "sto-3g",
+        "active_electrons": 2,
+        "active_orbitals": 2,
+        "vqe_steps": 50,
+        "vqe_stepsize": 0.1,
+        "test_active_electrons": 2,
+        "test_active_orbitals": 2,
+        "test_vqe_steps": 40,
+        "test_vqe_stepsize": 0.1
+    }
+}
